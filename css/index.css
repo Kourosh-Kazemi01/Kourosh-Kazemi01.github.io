@@ -1,0 +1,406 @@
+@font-face {
+    font-family: "SST W20 Bold";
+    src: url("../fonts/SST-W20-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "SST W20 Roman";
+    src: url("../fonts/SST-W20-Roma.woff2") format("woff2");
+}
+
+
+
+@media all and (max-width:767px) {
+    .navbar-brand {
+        letter-spacing: 1.5px;
+        font-size: 25px;
+        height: 60px;
+        align-self: center;
+    }
+
+    .a-search {
+        font-size: 17px;
+        color: #fff;
+    }
+
+    .parent-img-slider {
+        height: 450px;
+    }
+
+    .a-search:hover {
+        color: #2d61bf;
+    }
+
+    .span-slider {
+        font-family: "SST W20 Bold";
+        font-weight: 700;
+    }
+
+    .p-slider {
+        font-family: "SST W20 Roman";
+    }
+
+    .parent-img-body,
+    .description-img-body {
+        width: 90vw;
+    }
+
+    .a-Social-Media {
+        width: 48px;
+    }
+
+    .img-Social-Media {
+        width: 38px;
+    }
+
+    .Social-Media-Policy {
+        font-size: calc(1vw + 8px);
+    }
+
+    .p-date-News {
+        height: 100%;
+        width: 120px;
+        font-size: calc(0.8vw + 8px);
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .Par-Description {
+        font-size: calc(1.2vw + 7px);
+    }
+
+    .p-title-News {
+        font-size: calc(0.7vw + 9px);
+    }
+
+    .a-Site-Map {
+        font-size: calc(1vw + 8px);
+        text-decoration: none;
+        color: #5c5c5c;
+    }
+
+    .a-Site-Map:hover {
+        text-decoration: underline #000;
+        color: #000;
+    }
+
+    .a-Footer {
+        font-size: calc(1.2vw + 7px);
+        color: #fff;
+    }
+
+    .span-copyright {
+        font-size: calc(1vw + 5px);
+    }
+
+}
+
+@media all and (min-width:768px) {
+    .navbar1 {
+        max-width: 9%;
+    }
+
+    .navbar2 {
+        max-width: 91%;
+    }
+
+    .dropdown-1 {
+        margin-left: -40px;
+        width: 280%;
+    }
+
+    .dropdown-2 {
+        margin-left: -40px;
+        width: 340px;
+    }
+
+    .dropdown-3 {
+        margin-left: -40px;
+        width: 340px;
+    }
+
+    .dropdown-4 {
+        margin-left: -40px;
+        width: 250px;
+    }
+
+    .dropdown-5 {
+        margin-left: -47px;
+        width: 370px;
+    }
+
+    .dropdown-6 {
+        margin-left: -40px;
+        width: 270px;
+    }
+
+    .dropdown-7 {
+        margin-left: -40px;
+        width: 250%;
+    }
+
+    .dropdown-item {
+        font-size: calc(0.8vw + 5px);
+    }
+
+    .parent-img-slider {
+        height: 480px;
+    }
+
+    .least-news-head {
+        width: 15%;
+    }
+
+    .least-news-head2 {
+        width: 85%;
+    }
+
+    .navbar-brand {
+        font-size: calc(1.5vw + 7px);
+        letter-spacing: 1.5px;
+    }
+
+    .a-item-navbar {
+        color: #fff;
+        font-size: calc(0.6vw + 6px);
+        transition: all 0.3s ease 0s;
+    }
+
+    .a-item-navbar::after {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 1px;
+        margin-top: 2px;
+        background-color: #2d61bf;
+        transform: scaleX(0);
+        transition: all 0.4s ease 0s;
+    }
+
+    .a-item-navbar:hover {
+        color: #5e9df4;
+    }
+
+    .a-item-navbar:hover::after {
+        transform: scaleX(1);
+    }
+
+    .nav-us {
+        color: #fff;
+        font-size: calc(0.5vw + 6px);
+        transition: all 0.25 ease 0s;
+    }
+
+    .nav-us:hover {
+        color: #5e9df4;
+    }
+
+    .or-biti {
+        width: 1px;
+        height: 20px;
+        background-color: #fff;
+    }
+
+    .parent-img-body {
+        width: 98%;
+    }
+
+    .img-body {
+        transition: all 0.4s ease 0s;
+    }
+
+    .img-body:hover {
+        opacity: 60%;
+    }
+
+    .description-img-body {
+        width: 98%;
+    }
+
+    .Par-Description {
+        font-size: calc(0.5vw + 6px);
+    }
+
+    .li-footer-md {
+        width: 24.2%;
+    }
+
+    .a-Site-Map-md {
+        text-decoration: none;
+        color: #656565;
+        font-size: calc(0.5vw + 7px);
+    }
+
+    .a-Site-Map-md:hover {
+        text-decoration: underline #000;
+        color: #000;
+    }
+
+    .h3-Site-Map-md {
+        font-size: calc(0.5vw + 8px);
+    }
+
+    .a-Footer {
+        font-size: calc(0.8vw + 4px);
+    }
+
+    .span-copyright {
+        font-size: calc(0.7vw + 4px);
+    }
+}
+
+.span-slider {
+    font-family: "SST W20 Bold";
+    font-weight: 700;
+}
+
+.h2-slider {
+    font-family: "SST W20 Bold";
+    font-weight: 700;
+    font-size: calc(0.85vw + 9px);
+}
+
+.p-slider {
+    font-family: "SST W20 Roman";
+}
+
+.navbar-brand {
+    font-family: serif;
+
+}
+
+.img-slider-width {
+    width: clamp(270px, 75%, 670px);
+}
+
+.dropdown-item:hover {
+    color: #2d61bf;
+    background-color: #343a40;
+    transition: all .25s ease 0s;
+}
+
+.dropdown-item :nth-child(1) {
+    transition: all .25s ease 0s;
+}
+
+.dropdown-item:hover i {
+    margin-left: 9px;
+    transform: translate(40deg);
+}
+
+.a-covid {
+    text-decoration: none;
+}
+
+.a-covid:hover {
+    text-decoration: underline;
+}
+
+.a-head-news2 {
+    text-decoration: none;
+}
+
+.a-head-news2:hover {
+    text-decoration: underline;
+}
+
+.Social-Media-Icon {
+    color: rgb(27, 27, 27);
+    font-size: 4rem;
+    transition: all 0s ease;
+}
+
+.Social-Media-Icon:hover {
+    color: rgb(92, 92, 92);
+}
+
+
+.viwe-News:hover :nth-child(1) {
+    text-decoration: underline #282828;
+}
+
+.viwe-News:hover :nth-child(2) {
+    color: #282828;
+}
+
+.Social-Media-Policy:hover :nth-child(n) {
+    text-decoration: underline #282828;
+}
+
+.parent-navbar {
+    height: 70px;
+}
+
+.a-News:hover :nth-of-type(n) {
+    text-decoration: underline #656565;
+}
+
+.p-date-News {
+    width: 130px;
+}
+
+.p-title-News {
+    font-size: 13px;
+}
+
+.col-Notice {
+    height: 60px;
+}
+
+.a-Notice:hover {
+    background-color: #dadada;
+    color: red;
+}
+
+.a-Notice:hover :nth-child(1) {
+    color: #ffffff;
+}
+
+.a-Notice:hover :nth-child(2) {
+    color: #282828;
+}
+
+
+.img-Notice {
+    width: 17px;
+}
+
+
+.img-Social-Media:hover {
+    opacity: .5;
+}
+
+.a-Footer {
+    color: #fff;
+}
+
+.a-Footer:hover {
+    color: #afafaf;
+    border-bottom: 1px #fff solid;
+}
+
+.top {
+    width: 40px;
+    height: 30px;
+    bottom: 2%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.opt-out {
+    font-size: 14.4px;
+}
+
+.offcanvas-title {
+    width: 120px;
+}
+
+.accept-cookie {
+    height: 40px
+}
+
+.Cookie-Details {
+    text-decoration: none;
+}
+
+.Cookie-Details:hover {
+    text-decoration: underline;
+}
